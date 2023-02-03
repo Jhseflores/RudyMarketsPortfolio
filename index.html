@@ -10,7 +10,7 @@
 
     
     
-    
+    <!--update fonts on all pages-->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./style.css">
@@ -23,7 +23,7 @@
             <img src="./img/devrudylogo.png" alt="logo" class="logo">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="haamburger"></span>
+            <span class="hamburger"></span>
         </button>
         <!---Start of Nav Bar-->
         <nav class="nav">
@@ -89,32 +89,33 @@
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
         <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
+        
+        <!--create portfolio indexes for each project-->
         <div class="portfolio">
             <!--Portfolio item 01-->
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="./img/portfolio-01.jpg" alt="" class="portfolio__img">
             </a>
 
             <!--Portfolio item 02-->
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="./img/portfolio-02.jpg" alt="" class="portfolio__img">
             </a>
 
             <!--Portfolio item 03-->
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="./img/portfolio-03.jpg" alt="" class="portfolio__img">
             </a>
 
             <!--Portfolio item 04-->
-            <a href="#" class="portfolio__item">
+            <a href="portfolio-item.html" class="portfolio__item">
                 <img src="./img/portfolio-04.jpg" alt="" class="portfolio__img">
             </a>
         </div>
     </section>
 
     <!--Footer-->
-    <footer>
+    <footer class="footer">
         <a href="mailto:itsrudyflores@gmail.com" class="footer-link">Email Me!</a>
         <ul class="social-list">
             <li class="social-list__item">
@@ -139,6 +140,8 @@
             </li>
         </ul>
     </footer> <!--End of Footer-->
+
+    <script src="./script.js"></script>
 
 
 </body>
